@@ -12,5 +12,22 @@ public class Main {
         System.out.println("Значение переменной " + "sugar " + "с типом " + "float " + "равно " + sugar);
         double pepper = 5.845897;
         System.out.println("Значение переменной " + "pepper " + "с типом " + "double " + "равно " + pepper);
+        System.out.println("Exercise 2");
+        float room = 27.12f;
+        System.out.println(room);
+        long number = 987678965549l;
+        System.out.println(number);
+        double dye = 2.786;
+        System.out.println(dye);
+        boolean roomSize = false;
+        System.out.println(roomSize);
+        int copperScrew = 569;
+        System.out.println(copperScrew);
+        short lakeDepth = -159;
+        System.out.println(lakeDepth);
+        short bookPages = 27897;
+        System.out.println(bookPages);
+        byte window = 67;
+        System.out.println(window);
     }
 }

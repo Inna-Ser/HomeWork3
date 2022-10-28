@@ -39,9 +39,17 @@ public class Main {
         System.out.println("На каждого ученика рассчитано " + pagesOneStudent + " листов бумаги.");
         System.out.println("Exercise 4");
         byte bottleOneMin = 16 / 2;
-        int timeWorkMachine = 20;
+        int day = 1440;
+        long timeWorkMachine = day * 30;
         int timeOut = 0;
-        int makesMachine = bottleOneMin * (timeWorkMachine - timeOut);
-        System.out.println("За " + timeWorkMachine + " мимнут машина произвела бутылок " + makesMachine + " штук.");
+        long makesMachine = bottleOneMin * (timeWorkMachine - timeOut);
+        System.out.println("За 1 месяц машина произвела бутылок " + makesMachine + " штук.");
+        System.out.println("Exercise 5");
+        short totalCansPaint = 120;
+        byte cansPerClass = 2 + 4;
+        int sumClass = totalCansPaint / cansPerClass;
+        int sumWPaints = sumClass * 2;
+        int sumBPaints = sumClass * 4;
+        System.out.println("В школе, где " + sumClass + " классов, нужно " + sumWPaints + " банок белой краски и " + sumBPaints + " банки коричневой краски.");
     }
 }

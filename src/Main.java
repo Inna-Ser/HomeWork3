@@ -8,5 +8,9 @@ public class Main {
         System.out.println("Значение переменной " + "chair " + "с типом " + "int " + "равно " + chair);
         long lamp = 10;
         System.out.println("Значение переменной " + "lamp " + "с типом " + "long " + "равно " + lamp);
+        float sugar = 3.4f;
+        System.out.println("Значение переменной " + "sugar " + "с типом " + "float " + "равно " + sugar);
+        double pepper = 5.845897;
+        System.out.println("Значение переменной " + "pepper " + "с типом " + "double " + "равно " + pepper);
     }
 }

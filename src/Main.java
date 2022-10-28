@@ -39,9 +39,10 @@ public class Main {
         System.out.println("На каждого ученика рассчитано " + pagesOneStudent + " листов бумаги.");
         System.out.println("Exercise 4");
         byte bottleOneMin = 16 / 2;
-        int timeWorkMachine = 20;
+        int day = 1440;
+        long timeWorkMachine = day * 1;
         int timeOut = 0;
-        int makesMachine = bottleOneMin * (timeWorkMachine - timeOut);
-        System.out.println("За " + timeWorkMachine + " мимнут машина произвела бутылок " + makesMachine + " штук.");
+        long makesMachine = bottleOneMin * (timeWorkMachine - timeOut);
+        System.out.println("За " + timeWorkMachine + " минут машина произвела бутылок " + makesMachine + " штук.");
     }
 }

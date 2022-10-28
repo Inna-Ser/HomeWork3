@@ -27,7 +27,15 @@ public class Main {
         System.out.println(lakeDepth);
         short bookPages = 27897;
         System.out.println(bookPages);
-        byte window = 67;
+        var window = 67;
         System.out.println(window);
+        System.out.println("Exercise 3");
+        byte studentsLudmilaPavlovna = 23;
+        byte studentsAnnaSergeevna = 27;
+        byte studentsEkaterinaAndreevna = 30;
+        short totalPages = 480;
+        int totalStudent = studentsLudmilaPavlovna + studentsAnnaSergeevna + studentsEkaterinaAndreevna;
+        int pagesOneStudent = totalPages / totalStudent;
+        System.out.println("На каждого ученика рассчитано " + pagesOneStudent + " листов бумаги.");
     }
 }

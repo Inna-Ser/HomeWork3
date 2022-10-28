@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Exercise 2");
         float room = 27.12f;
         System.out.println(room);
-        long number = 987678965549l;
+        long number = 987678965549L;
         System.out.println(number);
         double dye = 2.786;
         System.out.println(dye);
@@ -37,5 +37,11 @@ public class Main {
         int totalStudent = studentsLudmilaPavlovna + studentsAnnaSergeevna + studentsEkaterinaAndreevna;
         int pagesOneStudent = totalPages / totalStudent;
         System.out.println("На каждого ученика рассчитано " + pagesOneStudent + " листов бумаги.");
+        System.out.println("Exercise 4");
+        byte bottleOneMin = 16 / 2;
+        int timeWorkMachine = 20;
+        int timeOut = 0;
+        int makesMachine = bottleOneMin * (timeWorkMachine - timeOut);
+        System.out.println("За " + timeWorkMachine + " мимнут машина произвела бутылок " + makesMachine + " штук.");
     }
 }

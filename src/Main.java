@@ -40,9 +40,9 @@ public class Main {
         System.out.println("Exercise 4");
         byte bottleOneMin = 16 / 2;
         int day = 1440;
-        long timeWorkMachine = day * 1;
+        long timeWorkMachine = day * 3;
         int timeOut = 0;
         long makesMachine = bottleOneMin * (timeWorkMachine - timeOut);
-        System.out.println("За " + timeWorkMachine + " минут машина произвела бутылок " + makesMachine + " штук.");
+        System.out.println("За 3 дня машина произвела бутылок " + makesMachine + " штук.");
     }
 }

@@ -51,5 +51,17 @@ public class Main {
         int sumWPaints = sumClass * 2;
         int sumBPaints = sumClass * 4;
         System.out.println("В школе, где " + sumClass + " классов, нужно " + sumWPaints + " банок белой краски и " + sumBPaints + " банки коричневой краски.");
+        System.out.println("Exercise 6");
+        byte banana = 5;
+        int bananaWeight =  banana * 80;
+        byte milk = 2;
+        int milkWeight =  milk * 105;
+        byte iceCream = 2;
+        int iceCreamWeight =  iceCream * 100;
+        byte egg = 4;
+        int eggWeight =  egg * 70;
+        int totalWeight = bananaWeight + milkWeight + iceCreamWeight + eggWeight;
+        int kgTotalWeight = totalWeight / 1000;
+        System.out.println("Завтрак спортсмена весит " + kgTotalWeight + " кг.");
     }
 }

@@ -27,7 +27,8 @@ public class Main {
         System.out.println(lakeDepth);
         short bookPages = 27897;
         System.out.println(bookPages);
-        byte window = 67;
+        var window = 67;
         System.out.println(window);
+
     }
 }

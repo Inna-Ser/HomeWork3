@@ -65,7 +65,7 @@ public class Main {
         System.out.println("Завтрак спортсмена весит " + kgTotalWeight + " кг.");
         System.out.println("Exercise 7");
         int totalLooseWeight = 7000;
-        int looseWeightInDay = 250;
+        int looseWeightInDay = 500;
         int sumDay = totalLooseWeight / looseWeightInDay;
         System.out.println(sumDay + " дней уйдёт на похудение, если спортсмен будет терять каждый день по " + looseWeightInDay + " грамм.");
 

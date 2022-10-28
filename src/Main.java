@@ -44,5 +44,12 @@ public class Main {
         int timeOut = 0;
         long makesMachine = bottleOneMin * (timeWorkMachine - timeOut);
         System.out.println("За 1 месяц машина произвела бутылок " + makesMachine + " штук.");
+        System.out.println("Exercise 5");
+        short totalCansPaint = 120;
+        byte cansPerClass = 2 + 4;
+        int sumClass = totalCansPaint / cansPerClass;
+        int sumWPaints = sumClass * 2;
+        int sumBPaints = sumClass * 4;
+        System.out.println("В школе, где " + sumClass + " классов, нужно " + sumWPaints + " банок белой краски и " + sumBPaints + " банки коричневой краски.");
     }
 }

@@ -68,6 +68,18 @@ public class Main {
         int looseWeightMidle = (500 + 250) / 2;
         int sumDay = totalLooseWeight / looseWeightMidle;
         System.out.println(sumDay + " дней уйдёт на похудение, если спортсмен будет терять каждый день по " + looseWeightMidle + " грамм.");
-
+        System.out.println("Exercise 8");
+        int MashaWage = 67760;
+        int DenisWage = 83690;
+        int CristinaWage = 76230;
+        double newMashaWage = MashaWage * 1.1;
+        double newDenisWage = DenisWage * 1.1;
+        double newCristinaWage = CristinaWage * 1.1;
+        double difMashaWage = ((int)newMashaWage * 12) % (MashaWage * 12);
+        double difDenisWage = ((int)newDenisWage * 12) % (DenisWage * 12);
+        double difCristinaWage = ((int)newCristinaWage * 12) % (CristinaWage * 12);
+        System.out.println("Маша теперь получает " + (int)newMashaWage + " рублей. Годовой доход вырос на " + difMashaWage + " рублей.");
+        System.out.println("Денис теперь получает " + (int)newDenisWage + " рублей. Годовой доход вырос на " + difDenisWage + " рублей.");
+        System.out.println("Кристина теперь получает " + (int)newCristinaWage + " рублей. Годовой доход вырос на " + difCristinaWage + " рублей.");
     }
 }
